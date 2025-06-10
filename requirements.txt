@@ -1,0 +1,5 @@
+PyMuPDF
+# openai
+python-dotenv
+# httpx
+gTTS

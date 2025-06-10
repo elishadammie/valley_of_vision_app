@@ -1,0 +1,47 @@
+# Ignore generated audio files
+output/
+
+# Ignore all .env files
+.env
+
+# --- Environment ---
+# Ignore the virtual environment folder
+venv/
+.venv/
+
+# --- Secrets ---
+# Ignore all environment variable files that contain secret keys
+.env
+*.env
+
+# --- Generated Output ---
+# Ignore the folder with generated audio files
+output/
+
+# --- Python Cache & Compiled Files ---
+# Ignore Python's bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Build & Distribution Artifacts ---
+# Ignore folders created by packaging tools like setuptools or wheel
+build/
+dist/
+*.egg-info/
+/site/
+
+# --- IDE & Editor-Specific Files ---
+# Ignore configuration folders for popular editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Operating System Files ---
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore Windows thumbnail cache
+Thumbs.db
