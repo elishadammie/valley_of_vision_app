@@ -1,9 +1,3 @@
-# Ignore generated audio files
-output/
-
-# Ignore all .env files
-.env
-
 # --- Environment ---
 # Ignore the virtual environment folder
 venv/
@@ -14,9 +8,15 @@ venv/
 .env
 *.env
 
-# --- Generated Output ---
+# --- Generated Output & Data ---
 # Ignore the folder with generated audio files
 output/
+
+# Ignore the processed JSON data files, as they are generated from the source
+data/processed/
+
+# Ignore source PDF files that are not open source
+*.pdf
 
 # --- Python Cache & Compiled Files ---
 # Ignore Python's bytecode cache
